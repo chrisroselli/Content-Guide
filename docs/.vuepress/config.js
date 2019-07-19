@@ -9,7 +9,7 @@ module.exports = {
     sidebar: {
       '/docs/': [{
         title: 'Docs',
-        children: getChildren('./docs')
+        children: getChildren('./')
       }]
     },
     nav: [
