@@ -1,5 +1,3 @@
-var getChildren = require('./childscript');
-
 module.exports = {
   title: 'Treehouse Content Guide',
   description: 'Netlify + VuePress',
@@ -7,7 +5,8 @@ module.exports = {
     docsDir: 'docs',
     repo: 'chrisroselli/content-guide',
     sidebar: [
-      getChildren('./docs')
+      '/welcome',
+      '/test'
     ],
     nav: [
       { text: 'Admin', link: '/admin#' }
