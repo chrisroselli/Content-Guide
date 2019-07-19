@@ -7,7 +7,7 @@ module.exports = {
     docsDir: 'docs',
     repo: 'chrisroselli/content-guide',
     sidebar: [
-
+      getChildren('./docs')
     ],
     nav: [
       { text: 'Admin', link: '/admin#' }
