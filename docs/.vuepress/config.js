@@ -1,9 +1,9 @@
 module.exports = {
-  title: 'Netlify CMS + VuePress',
+  title: 'Treehouse Content Guide',
   description: 'Netlify + VuePress',
   themeConfig: {
     docsDir: 'docs',
-    repo: 'andreliem/vuepress-netlify-cms',
+    repo: 'chrisroselli/content-guide',
     sidebar: [
       '/',
       '/welcome',
