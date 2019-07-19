@@ -6,12 +6,9 @@ module.exports = {
   themeConfig: {
     docsDir: 'docs',
     repo: 'chrisroselli/content-guide',
-    sidebar: {
-      '/docs/': [{
-        title: 'Docs',
-        children: getChildren('./')
-      }]
-    },
+    sidebar: [
+      getChildren('./docs')
+    ],
     nav: [
       { text: 'Admin', link: '/admin#' }
     ]
