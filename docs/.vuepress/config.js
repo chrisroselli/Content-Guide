@@ -5,15 +5,11 @@ module.exports = {
     docsDir: 'docs',
     repo: 'chrisroselli/content-guide',
     sidebar: [
-      '/',
       '/welcome',
       '/test'
     ],
     nav: [
-      {
-        text: 'Admin',
-        link: '/admin#',
-      }
+      { text: 'Admin', link: '/admin#' }
     ]
   }
 }
